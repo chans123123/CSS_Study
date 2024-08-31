@@ -5,20 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    li:first-child {
+    p:first-of-type {
       color: red;
     }
-    li:last-child {
+    P:last-of-type {
       color: blue;
     }
   </style>
 </head>
 <body>
-  <ul>
-    <li>title1</li>
-    <li>title2</li>
-    <li>title3</li>
-    <li>title4</li>
-  </ul>
+  <p>
+    title <!-- p:first-of-type -->
+    <div>
+      <p>title1</p> <!-- p:first-of-type -->
+      <p>title2</p> 
+      <p>title3</p>
+      <p>test</p> <!-- p:last-of-type -->
+    </div>
+    <div>
+      <p>title4</p> <!-- p:first-of-type -->
+      <p>title5</p>
+      <p>title6</p>
+      <p>test2</p> <!-- p:last-of-type -->
+    </div>
+  </p>
 </body>
 </html>
