@@ -1,0 +1,6 @@
+em : 배수
+% : 퍼센트
+px : 픽셀 
+cm : cm ex) margin-left : 5cm;
+mm : mm ex) ,, 5mm;
+
