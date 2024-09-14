@@ -4,3 +4,7 @@ px : 픽셀
 cm : cm ex) margin-left : 5cm;
 mm : mm ex) ,, 5mm;
 
+font-family : 구체적인 폰트 이름을 적는다. 웹마다 지원하는 폰트가 다르기 때문에 여러개의 폰트를 적는다
+  - 왼쪽부터 적용됨.
+font-size : 폰트 크기를 조정함.
+font-style : 
